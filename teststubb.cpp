@@ -1,6 +1,6 @@
 /*Rusty Raymond
 
-Assignment #3
+Assignment #4
 
 to test complex funtions comment out simple functions and uncomment complex functions
 
@@ -451,8 +451,9 @@ bool test_outofbounds_col_after()
 //
 //	Array2D<string> my2Darray;
 //
+//	int length = my2Darray.getColumn()*my2Darray.getRow();
 //
-//	if (my2Darray.getArray().GetLength() != default_length) // if the length of the array doesn't = 0
+//	if (length != default_length) // if the length of the array doesn't = 0
 //		pass = false;//pass = false
 //
 //	cout << "Default ctor test ";
@@ -471,7 +472,9 @@ bool test_outofbounds_col_after()
 //	my2Darray[1][0] = "happening ";
 //	my2Darray[1][1] = "now?";
 //
-//	if (my2Darray.getArray().GetLength() == 4) //if the array length is 4 then it made a 2X2 array
+//	int length = my2Darray.getColumn()*my2Darray.getRow();
+//
+//	if (length == 4) //if the array length is 4 then it made a 2X2 array
 //		pass = true;
 //
 //		my2Darray.Display();
