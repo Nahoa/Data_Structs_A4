@@ -218,5 +218,5 @@ inline void Array2D<T>::Purge()
 	delete[] m_array;
 	m_array = nullptr;
 	m_col = 0;
-	m_row = 0;
+	m_row = 0
 }
